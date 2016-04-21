@@ -1,0 +1,26 @@
+
+
+        <div class="inner cover">
+          <span class="glyphicon glyphicon-link"></span>
+          <h1>URL Shortener</h1>
+
+          <div class="row">
+
+            <div class="col-lg-12">
+            <form method="POST" action="/links">
+              <div class="input-group input-group-lg">
+                <input id="url-field" value="https://" name="url" type="text" class="form-control" placeholder="Paste a link...">
+                <span class="input-group-btn">
+                  <button class="btn btn-shorten" type="submit">SHORTEN</button>
+                </span>
+              </div>
+              </form>
+            </div>
+
+            <div class="col-lg-12">
+              <div id="link"></div>
+            </div>
+
+          </div>
+
+        </div>
